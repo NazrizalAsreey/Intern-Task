@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #download webpage
-page = requests.get('https://www.askhargapedia.com/#download')
+page = requests.get('https://www.askhargapedia.com')
 
 #parsing the webpage
 soup = BeautifulSoup(page.content,  'html.parser')
